@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
+.headerContent {
+    background-color: #061273;
+    width: 100vw;
+    height: 18vh;
+}
+
+h2 {
+    margin: 0%;
+    text-align: center;
+    padding-top: 2.5rem;
+    color: antiquewhite;
+    font-family: 'Major Mono Display', monospace;
+
+}
+.headContent {
+    background-color: #919BEB ;
+    width: 100vw;
+    height: 8vh;
+}
