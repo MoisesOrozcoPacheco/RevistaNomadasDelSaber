@@ -1,17 +1,21 @@
 import React from 'react'
 import './Indice.css'
+import { Lista } from './lista';
+import './lista.css'
+
 
 function Indice () {
     return (
         <React.Fragment>
               <div class="headContent"> 
-                <h4 class="navegacion"> Números anteriores </h4>
-                <h4 class="navegacion"> Información </h4>
-                <h4 class="navegacion"> Secciones Definidas </h4>
+                <button class="navegacion"><b>Búsqueda</b></button>
+                <button class="navegacion"> <b>Números anteriores</b> </button>
+                <Lista></Lista>
+                <button class="navegacion"> <b>Secciones Definidas</b> </button>
               </div>
-    
         </React.Fragment>
     );
 }
+
 
 export { Indice };

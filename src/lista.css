@@ -1,0 +1,22 @@
+.ListaOculta {
+    display:none !important;
+}
+
+.ListaMuestra { 
+    display: block;
+}
+
+#Lista {
+    background-color: #C3C7EA;
+}
+
+.elemento {
+    content: inherit;
+    text-align: center;
+    padding: 5px;
+    background-color:transparent;
+    display: block;
+    font-size: 15px;
+    text-shadow: none;
+    border-color:black;
+}
