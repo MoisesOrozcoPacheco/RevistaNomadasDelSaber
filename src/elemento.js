@@ -1,12 +1,12 @@
 import React from "react";
 
-function elemento(props) {
+function Elemento(props) {
     return (
         <il>
-             <button class="elemento"> {props.text}
+             <button className="elemento"> {props.text}
              </button>
         </il>
     );
 }
 
-export {elemento}
+export {Elemento}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { elemento } from "./elemento";
+import { Elemento } from "./elemento";
 import './lista.css'
 
 const Informacion = [
@@ -15,10 +15,9 @@ function Lista() {
 
     return(
         <React.Fragment>
-            <h1>holita de mar</h1>
-             <button class="navegacion" onMouseOver={() => SetMuestra('ListaMuestra')} onMouseOut={()=>SetMuestra('ListaOculta')}> <b>Información </b>
+             <button className="navegacion" onMouseOver={() => SetMuestra('ListaMuestra')} onMouseOut={()=>SetMuestra('ListaOculta')}> <b>Información </b>
                 <ul id="Lista" className={muestra}>
-                    {opciones.map(informacion =>(<elemento text="Informacion.text"></elemento>))}
+                    {Informacion.map(Opcion => (<Elemento key={Informacion.text} text={Opcion.text}></Elemento>))}
                 </ul>
             </button>
         </React.Fragment>
@@ -26,8 +25,7 @@ function Lista() {
 }
 
 
-//      
-             <il> <button class="elemento">¿Quiénes somos?</button></il>
+//<il> <button class="elemento">¿Quiénes somos?</button></il>
 //<il> <button class="elemento">Directiva</button></il>
 //<il> <button class="elemento">Escritores y Editores</button></il>
 //<il> <button class="elemento">Contacto</button></il>

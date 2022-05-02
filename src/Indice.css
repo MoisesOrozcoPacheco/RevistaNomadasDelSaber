@@ -2,4 +2,20 @@
     background-color: #919BEB ;
     width: 100vw;
     height: 8vh;
+    text-align: center;
+}
+
+.navegacion {
+    padding: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size:15px;
+}
+.navegacion:hover {
+    color:aliceblue;
+    font-size: large;
+    text-shadow: 2px 2px 5px black;
+}
+.busqueda {
+    border-radius: 10px;
 }
