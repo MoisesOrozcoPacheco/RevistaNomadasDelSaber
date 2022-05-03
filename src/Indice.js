@@ -1,21 +1,18 @@
 import React from 'react'
 import './Indice.css'
-import { Lista } from './lista';
+import { ListaIndice } from './ListaIndice'
 import './lista.css'
+import { Apartados } from './Datos'
 
 
 function Indice () {
     return (
         <React.Fragment>
               <div class="headContent"> 
-                <button class="navegacion"><b>Búsqueda</b></button>
-                <button class="navegacion"> <b>Números anteriores</b> </button>
-                <Lista></Lista>
-                <button class="navegacion"> <b>Secciones Definidas</b> </button>
+                    {Apartados.map(Boton => (<ListaIndice key={Apartados.text} text={Boton.text}></ListaIndice>))}     
               </div>
         </React.Fragment>
     );
 }
 
-
-export { Indice };
+export { Indice,Apartados };

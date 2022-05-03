@@ -6,13 +6,6 @@
     display: block;
 }
 
-ul{
-    background-color: #C3C7EA;
-    border-radius: 15px;
-    padding: 0;
-    margin: 0;
-}
-
 .elemento {
     text-align: center;
     content: inherit;
@@ -31,4 +24,11 @@ ul{
 .elemento:hover {
     background-color:#8FA2C6;
     
+}
+
+ul{
+    background-color: #C3C7EA;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
 }
