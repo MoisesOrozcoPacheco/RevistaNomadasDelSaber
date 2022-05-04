@@ -1,5 +1,4 @@
 import React from 'react'
-import './Indice.css'
 import { ListaIndice } from './ListaIndice'
 import './lista.css'
 import { Apartados } from './Datos'

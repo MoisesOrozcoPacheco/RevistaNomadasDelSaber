@@ -12,7 +12,6 @@ const OpcionesApartados = [
    {text: 'Directiva'},
    {text: 'Escritores y Editores'},
    {text: 'Deseo colaborar'}
-
 ]
 
 export {Apartados, OpcionesApartados};

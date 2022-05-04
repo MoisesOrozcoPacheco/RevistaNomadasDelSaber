@@ -4,40 +4,16 @@
 
 .ListaMuestra { 
     display: block;
-<<<<<<< HEAD
-    transition: with 2s, height 2s, margin 2s;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
-    background-color: #C3C7EA;
-    border-radius: 15px;
-    
-}
-
-.elemento {
-    content: inherit;
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    background-color:transparent;
-    display: block;
-    font-size: 15px;
-    text-shadow: none;
-    border-color:transparent;
-}
-
-.elemento:hover {
-    background-color:#A4A6BB;
-    border-radius: 15px;
-}
-=======
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 .elemento {
     text-align: center;
-    content: inherit;
     width: 100%;
     padding: 5px;
     background-color:transparent;
@@ -47,7 +23,7 @@ ul {
     text-shadow: none;
     border-radius: 15px;
     border-color:transparent;
-
+    margin: 0 auto;
 }
 
 .elemento:hover {
@@ -58,7 +34,28 @@ ul {
 ul{
     background-color: #C3C7EA;
     border-radius: 15px;
-    padding: 0;
-    margin: 0;
+    width:100%;
 }
->>>>>>> a37fd78871105d531d60d0283f78ab1fea5bc0be
+
+.headContent {
+    box-sizing: border-box;
+    background-color: #919BEB ;
+    width: 100vw;
+    height: 8vh;
+    text-align: center;
+}
+
+.navegacion {
+    padding: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size:15px;
+}
+.navegacion:hover {
+    color:aliceblue;
+    font-size: large;
+    text-shadow: 2px 2px 5px black;
+}
+.busqueda {
+    border-radius: 10px;
+}

@@ -12,8 +12,9 @@ function ListaIndice(props) {
     return (
         <React.Fragment>
             <il>
-                <button className="navegacion" onMouseOver={() => SetMuestra('ListaMuestra')} onMouseOut={()=>SetMuestra('ListaOculta')}> <b>{props.text}</b> </button>
-                <Lista clase={muestra}></Lista>
+                <button className="navegacion" onMouseOver={() => SetMuestra('ListaMuestra')} onMouseOut={()=>SetMuestra('ListaOculta')}> <b>{props.text}</b>
+                    <Lista clase={muestra}></Lista>
+                </button>
             </il>
         </React.Fragment>
     )
