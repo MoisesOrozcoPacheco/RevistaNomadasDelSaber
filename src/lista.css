@@ -4,6 +4,7 @@
 
 .ListaMuestra { 
     display: block;
+<<<<<<< HEAD
     transition: with 2s, height 2s, margin 2s;
 }
 
@@ -31,3 +32,33 @@ ul {
     background-color:#A4A6BB;
     border-radius: 15px;
 }
+=======
+}
+
+.elemento {
+    text-align: center;
+    content: inherit;
+    width: 100%;
+    padding: 5px;
+    background-color:transparent;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    text-shadow: none;
+    border-radius: 15px;
+    border-color:transparent;
+
+}
+
+.elemento:hover {
+    background-color:#8FA2C6;
+    
+}
+
+ul{
+    background-color: #C3C7EA;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+}
+>>>>>>> a37fd78871105d531d60d0283f78ab1fea5bc0be

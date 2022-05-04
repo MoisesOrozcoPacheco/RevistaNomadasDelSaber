@@ -2,9 +2,10 @@
     box-sizing: border-box;
     background-color: #919BEB ;
     width: 100vw;
-    height: 9vh;
-    text-align: center;    
+    height: 8vh;
+    text-align: center;
 }
+
 .navegacion {
     padding: 20px;
     background-color: transparent;
