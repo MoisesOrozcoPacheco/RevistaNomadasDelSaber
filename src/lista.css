@@ -4,19 +4,30 @@
 
 .ListaMuestra { 
     display: block;
+    transition: with 2s, height 2s, margin 2s;
 }
 
-#Lista {
+ul {
+    padding: 0;
+    margin: 0;
     background-color: #C3C7EA;
+    border-radius: 15px;
+    
 }
 
 .elemento {
     content: inherit;
     text-align: center;
-    padding: 5px;
+    width: 100%;
+    padding: 10px;
     background-color:transparent;
     display: block;
     font-size: 15px;
     text-shadow: none;
-    border-color:black;
+    border-color:transparent;
+}
+
+.elemento:hover {
+    background-color:#A4A6BB;
+    border-radius: 15px;
 }

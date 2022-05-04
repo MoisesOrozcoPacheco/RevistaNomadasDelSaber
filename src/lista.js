@@ -8,7 +8,7 @@ function Lista() {
     return(
         <React.Fragment>
              <button class="navegacion" onMouseOver={() => SetMuestra('ListaMuestra')} onMouseOut={()=>SetMuestra('ListaOculta')}> <b>Información </b>
-                <ul id="Lista" className={muestra}>
+                <ul className={muestra}>
                     <il> <button class="elemento">¿Quiénes somos?</button></il>
                     <il> <button class="elemento">Directiva</button></il>
                     <il> <button class="elemento">Escritores y Editores</button></il>
