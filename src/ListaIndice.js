@@ -13,7 +13,7 @@ function ListaIndice(props) {
         <React.Fragment>
             <il>
                 <button className="navegacion" onMouseOver={() => SetMuestra('ListaMuestra')} onMouseOut={()=>SetMuestra('ListaOculta')}> <b>{props.text}</b>
-                    <Lista clase={muestra}></Lista>
+                    {OpcionesApartados.map(ItemLista =>(<Lista clase={muestra} key={ItemLista} item={ItemLista} ></Lista>))}
                 </button>
             </il>
         </React.Fragment>

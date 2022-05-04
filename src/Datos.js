@@ -7,15 +7,16 @@ const Apartados = [
     { text:'Secciones Definidas'}
 ]
 
-const OpcionesApartados = [
-   {text: '¿Quiénes somos?'},
-   {text: 'Directiva'},
+const OpcionesApartados =[ 
+   [{text: '¿Quiénes somos?',text: 'Prueba1'},
+   {text: 'Directiva',text: 'Prueba2'},
    {text: 'Escritores y Editores'},
-   {text: 'Deseo colaborar'}
-]
+   {text: 'Deseo colaborar'}],
+   [{text: 'prueba1'},
+   {text: 'Directiva'},
+   {text: 'prueba2'},
+   {text: 'Deseo colaborar'}]
+] 
+
 
 export {Apartados, OpcionesApartados};
-//({text: 'Prueba'},
-//{text: 'Prueba1'},
-//{text: 'Prueba2'},
-//{text: 'Prueba3'})
