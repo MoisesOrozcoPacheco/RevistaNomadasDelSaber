@@ -12,7 +12,9 @@ function App() {
        </Cabecera>
        <Indice>
        </Indice>
-       <SeccionRamas>jp</SeccionRamas>
+       <SeccionRamas>
+         
+       </SeccionRamas>
     </React.Fragment>
   );
 }

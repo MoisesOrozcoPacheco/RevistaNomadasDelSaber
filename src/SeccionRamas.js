@@ -6,7 +6,7 @@ function SeccionRamas() {
         <React.Fragment>
                 <section class="RamasConocimiento"><h1>holii</h1></section>
         </React.Fragment>
-    )
+    );
 }
 
 export { SeccionRamas };
