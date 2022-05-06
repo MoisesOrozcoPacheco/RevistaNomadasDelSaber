@@ -4,7 +4,7 @@ import './cabecera.css';
 function Cabecera () {
     return(
         <React.Fragment>
-            <header class="headerContent">
+            <header className="headerContent">
                 <h2>Nómadas del saber</h2>
             </header>
         </React.Fragment>

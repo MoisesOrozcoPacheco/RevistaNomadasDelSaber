@@ -1,11 +1,10 @@
 import React from "react";
 
 function Elemento(props) {
+    console.log({props})
     return (
-        <il>
-             <button className="elemento"> {props.children}
+             <button className="elemento"> {props.text}
              </button>
-        </il>
     );
 }
 
